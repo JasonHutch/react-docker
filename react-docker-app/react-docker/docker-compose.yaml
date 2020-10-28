@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  react:
+    build: .
+    ports:
+      - 3000:3000
+    volumes: 
+      - ./:/usr/src/react-app
+    depends_on:
+      - express
+  express:
+    build: .
+    ports: 
+      - 8080:8080
+    
