@@ -33,6 +33,6 @@ jobs:
       with:
         image: hutchii/react-express-image
         registry: docker.io
-        username: ${{ hutchii }}
-        password: ${{ jason1996! }}
+        username: hutchii
+        password: jason1996!
      
